@@ -5,7 +5,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuth; // Thêm thư viện Firebase Auth
+
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Khởi tạo Firebase Auth
         FirebaseAuth auth = FirebaseAuth.getInstance();
         EditText e = findViewById(R.id.e), p = findViewById(R.id.p);
         Button btnReg = findViewById(R.id.btnReg), btnLogin = findViewById(R.id.btnLogin);
