@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="#212121"> <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="FIREBASE AUTH"
+    android:textSize="26sp"
+    android:textStyle="bold"
+    android:textColor="#FFFFFF"
+    android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:backgroundTint="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:backgroundTint="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ĐĂNG KÝ"
+        android:textSize="18sp"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ĐĂNG NHẬP"
+        android:textSize="18sp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
