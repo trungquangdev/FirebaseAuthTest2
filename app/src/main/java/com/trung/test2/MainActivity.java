@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                             String uid = auth.getCurrentUser().getUid();
 
                             // 2. Đẩy cái Email này sang Realtime Database để lưu trữ lâu dài
-                            FirebaseDatabase.getInstance("https://test2-1e127-default-rtdb.asia-southeast1.firebasedatabase.app/").getReference("users")
+                            FirebaseDatabase.getInstance().getReference("users")
                                     .child(uid) // Tạo thư mục riêng cho nó theo UID
                                     .child("email").setValue(email);
 
