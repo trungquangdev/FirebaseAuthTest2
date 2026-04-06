@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         FirebaseAuth auth = FirebaseAuth.getInstance();
-        FirebaseDatabase database = FirebaseDatabase.getInstance("https://test2-1e127-default-rtdb.asia-southeast1.firebasedatabase.app/");
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
 
         // Lấy thêm 2 ô nhập liệu mới từ giao diện
         EditText e = findViewById(R.id.e), p = findViewById(R.id.p);
